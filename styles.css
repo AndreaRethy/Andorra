@@ -1,0 +1,185 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    border: 5px solid #F1FAEE;
+    border-radius: 10px;
+    color: #1D3557;
+    font-family: 'Quicksand', Arial, sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/andorraLaVella2.png");
+    background-size: cover;
+    color: #F1FAEE;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.hero:hover {
+    background-image: url("images/rec.png");
+}
+
+.title {
+    background-color: #457B9D;
+    padding: 5px 10px;
+}
+
+.subtitle {
+    background-color: #1D3557;
+    width: 400px;
+    font-weight: normal;
+    padding: 5px 0;
+}
+
+.topThree {
+    background-color: #A8DADC;
+    
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.toDoLink {
+    color: #1D3557;
+}
+
+.eatLink {
+    color: #F1FAEE;
+}
+
+.activities {
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.toDo {
+    padding: 20px;
+}
+
+.caldea {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-image: url("images/caldea2.png");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.caldea:hover {
+    background-image: url(images/spa.png);
+}
+
+.puente {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-image: url("images/puenteTibetanoCanillo.png");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.puente:hover {
+    background-image: url("images/puentePortrait.png");
+}
+
+.ski {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-image: url("images/ski2.png");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.ski:hover {
+    background-image: url(images/skiPortrait.png);
+}
+
+.restaurants {
+    background-color: #457B9D;
+    color: #F1FAEE;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tremat {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-image: url("images/tremat.png");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.tremat:hover {
+    background-image: url("images/meat.png");
+}
+
+.mood {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-image: url("images/mood.png");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.mood:hover {
+    background-image: url("images/salad.png");
+}
+
+.rossell {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-image: url("images/rossell.png");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.rossell:hover {
+    background-image: url("images/frenchMeat.png");
+}
+
+.bold {
+    font-weight: bold;
+}
+
+p {
+    width: 250px;
+}
+
+.more {
+    width: auto;
+}
+
+.guide {
+    background-color: #A8DADC;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 500px;
+    border-bottom: 4px solid #1D3557;
+    margin: 40px auto;
+}
+
+.andrea {
+    width: 150px;
+    background-image: url("images/andrea.png");
+    background-size: cover;
+    border-radius: 10px;
+}
